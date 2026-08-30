@@ -10,6 +10,10 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
+RUN touch database/database.sqlite
+
+RUN php artisan migrate --force
+
 RUN php artisan storage:link || true
 
 ENV SERVER_NAME=:10000
