@@ -1176,14 +1176,14 @@
         </span>
 
         <h3 class="resource-title">
-            Pemuaian dan Jenisnya
+            Fundamentals of Physics
         </h3>
 
         <p class="resource-source">
-            Kompas.com — Skola
+            Halliday, Resnick, Walker
         </p>
 
-        <a href="https://www.kompas.com/skola/read/2020/04/01/120000369/pemuaian-dan-jenisnya?page=all"
+        <a href="{{ asset('pdf/halliday-pemuaian.pdf') }}"
            target="_blank"
            rel="noopener noreferrer"
            class="resource-button">
@@ -1192,8 +1192,8 @@
 
         <div class="resource-frame">
             <iframe
-                src="https://www.kompas.com/skola/read/2020/04/01/120000369/pemuaian-dan-jenisnya?page=all"
-                title="Pemuaian dan Jenisnya"
+                src="{{ asset('pdf/halliday-pemuaian.pdf') }}"
+                title="Fundamentals of Physics - Thermal Expansion"
                 loading="lazy">
             </iframe>
         </div>
@@ -1209,14 +1209,14 @@
         </span>
 
         <h3 class="resource-title">
-            Siswa, ini Contoh Pemuaian Zat yang Diakibatkan Suhu
+            Physics: Principles with Applications
         </h3>
 
         <p class="resource-source">
-            Kompas.com — Skola
+            Douglas C. Giancoli
         </p>
 
-        <a href="https://www.kompas.com/edu/read/2021/09/08/193556971/siswa-ini-contoh-pemuaian-zat-yang-diakibatkan-suhu"
+        <a href="{{ asset('pdf/giancoli-pemuaian.pdf') }}"
            target="_blank"
            rel="noopener noreferrer"
            class="resource-button">
@@ -1225,8 +1225,8 @@
 
         <div class="resource-frame">
             <iframe
-                src="https://www.kompas.com/edu/read/2021/09/08/193556971/siswa-ini-contoh-pemuaian-zat-yang-diakibatkan-suhu?page=all"
-                title="Siswa, ini Contoh Pemuaian Zat yang Diakibatkan Suhu"
+                src="{{ asset('pdf/giancoli-pemuaian.pdf') }}"
+                title="Physics: Principles with Applications - Thermal Expansion"
                 loading="lazy">
             </iframe>
         </div>

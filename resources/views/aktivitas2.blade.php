@@ -1163,14 +1163,14 @@
         </span>
 
         <h3 class="resource-title">
-            3 Macam Perpindahan Kalor: Konduksi, Konveksi, dan Radiasi
+            Fundamentals of Physics
         </h3>
 
         <p class="resource-source">
-            Kompas.com — Skola
+            Halliday, Resnick, Walker
         </p>
 
-        <a href="https://www.kompas.com/skola/read/2025/04/24/180000569/3-macam-perpindahan-kalor--konduksi-konveksi-dan-radiasi?page=all"
+        <a href="{{ asset('pdf/halliday-kalor.pdf') }}"
            target="_blank"
            rel="noopener noreferrer"
            class="resource-button">
@@ -1179,8 +1179,8 @@
 
         <div class="resource-frame">
             <iframe
-                src="https://www.kompas.com/skola/read/2025/04/24/180000569/3-macam-perpindahan-kalor--konduksi-konveksi-dan-radiasi?page=all"
-                title="3 Macam Perpindahan Kalor: Konduksi, Konveksi, dan Radiasi"
+                src="{{ asset('pdf/halliday-kalor.pdf') }}"
+                title="Fundamentals of Physics: Heat and Heat Transfer"
                 loading="lazy">
             </iframe>
         </div>
@@ -1196,14 +1196,14 @@
         </span>
 
         <h3 class="resource-title">
-            Contoh Perpindahan Kalor dalam Kehidupan Sehari-hari
+            Physics: Principles with Applications
         </h3>
 
         <p class="resource-source">
-            Kompas.com — Buku
+            Douglas C. Giancoli
         </p>
 
-        <a href="https://buku.kompas.com/read/4536/contoh-perpindahan-kalor-dalam-kehidupan-sehari-hari"
+        <a href="{{ asset('pdf/giancoli-kalor.pdf') }}"
            target="_blank"
            rel="noopener noreferrer"
            class="resource-button">
@@ -1212,8 +1212,8 @@
 
         <div class="resource-frame">
             <iframe
-                src="https://buku.kompas.com/read/4536/contoh-perpindahan-kalor-dalam-kehidupan-sehari-hari"
-                title="Contoh Perpindahan Kalor dalam Kehidupan Sehari-hari"
+                src="{{ asset('pdf/giancoli-kalor.pdf') }}"
+                title="Physics: Principles with Applications - Heat Transfer"
                 loading="lazy">
             </iframe>
         </div>

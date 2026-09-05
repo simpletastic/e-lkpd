@@ -739,7 +739,7 @@
 <div class="action">
 
     <a href="/elkpd" class="btn-back">
-        ← KEMBALI KE LOGIN
+        ← LOGOUT
     </a>
 
 </div>

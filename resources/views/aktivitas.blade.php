@@ -1147,14 +1147,14 @@
         </span>
 
         <h3 class="resource-title">
-            Termometer: Pengertian, Fungsi, dan Jenisnya
+            Fundamentals of Physics
         </h3>
 
         <p class="resource-source">
-            Kompas.com — Skola
+            Halliday, Resnick, Walker
         </p>
 
-        <a href="https://www.kompas.com/skola/read/2022/10/04/090000769/termometer--pengertian-fungsi-dan-jenisnya?page=all"
+        <a href="{{ asset('pdf/halliday-suhu.pdf') }}"
            target="_blank"
            rel="noopener noreferrer"
            class="resource-button">
@@ -1162,11 +1162,21 @@
         </a>
 
         <div class="resource-frame">
-            <iframe
-                src="https://www.kompas.com/skola/read/2022/10/04/090000769/termometer--pengertian-fungsi-dan-jenisnya?page=all"
-                title="Termometer: Pengertian, Fungsi, dan Jenisnya"
-                loading="lazy">
-            </iframe>
+            <object
+                data="{{ asset('pdf/halliday-suhu.pdf') }}"
+                type="application/pdf"
+                width="100%"
+                height="700px">
+    
+                <p>
+                    PDF tidak dapat ditampilkan.
+                    <a href="{{ asset('pdf/halliday-suhu.pdf') }}" target="_blank">
+                        Buka sumber PDF
+                    </a>
+                </p>
+
+            </object>
+
         </div>
 
     </div>
@@ -1180,14 +1190,14 @@
         </span>
 
         <h3 class="resource-title">
-            6 Jenis Termometer dan Kegunaannya
+            Physics: Principles with Applications
         </h3>
 
         <p class="resource-source">
-            Kompas.com — Skola
+            Douglas C. Giancoli
         </p>
 
-        <a href="https://www.kompas.com/skola/read/2023/10/16/010000469/6-jenis-termometer-dan-kegunaannya?page=all"
+        <a href="{{ asset('pdf/giancoli-suhu.pdf') }}"
            target="_blank"
            rel="noopener noreferrer"
            class="resource-button">
@@ -1196,8 +1206,8 @@
 
         <div class="resource-frame">
             <iframe
-                src="https://www.kompas.com/skola/read/2023/10/16/010000469/6-jenis-termometer-dan-kegunaannya?page=all"
-                title="6 Jenis Termometer dan Kegunaannya"
+                src="{{ asset('pdf/giancoli-suhu.pdf') }}"
+                title="Physics: Principles with Applications - Temperature"
                 loading="lazy">
             </iframe>
         </div>
