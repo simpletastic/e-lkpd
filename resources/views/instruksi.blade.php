@@ -350,6 +350,12 @@
     background: #151a1c;
 }
 
+.logout-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
 .action {
     display: flex;
     justify-content: flex-end;
@@ -736,13 +742,6 @@
 
             </div>
             
-<div class="action">
-
-    <a href="/elkpd" class="btn-back">
-        ← LOGOUT
-    </a>
-
-</div>
 
 <!-- =========================
      PILIH PERTEMUAN
@@ -850,6 +849,13 @@
 
 </div>
 
+<div class="logout-container">
+
+    <a href="/elkpd" class="btn-back">
+        ← LOGOUT
+    </a>
+
+</div>
 
         <!-- =========================
              FOOTER
