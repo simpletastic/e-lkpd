@@ -690,8 +690,8 @@
 
 @media (max-width: 600px) {
 
-    .resource-frame {
-        height: 450px;
+    .pdf-frame {
+        display: none;
     }
 
 }
@@ -1190,7 +1190,7 @@
             BUKA SUMBER ↗
         </a>
 
-        <div class="resource-frame">
+        <div class="resource-frame pdf-frame">
             <iframe
                 src="{{ asset('pdf/halliday-pemuaian.pdf') }}"
                 title="Fundamentals of Physics - Thermal Expansion"
@@ -1223,7 +1223,7 @@
             BUKA SUMBER ↗
         </a>
 
-        <div class="resource-frame">
+        <div class="resource-frame pdf-frame">
             <iframe
                 src="{{ asset('pdf/giancoli-pemuaian.pdf') }}"
                 title="Physics: Principles with Applications - Thermal Expansion"

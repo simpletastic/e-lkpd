@@ -699,8 +699,8 @@
 
 @media (max-width: 600px) {
 
-    .resource-frame {
-        height: 450px;
+    .pdf-frame {
+        display: none;
     }
 
 }
@@ -1177,7 +1177,7 @@
             BUKA SUMBER ↗
         </a>
 
-        <div class="resource-frame">
+        <div class="resource-frame pdf-frame">
             <iframe
                 src="{{ asset('pdf/halliday-kalor.pdf') }}"
                 title="Fundamentals of Physics: Heat and Heat Transfer"
@@ -1210,7 +1210,7 @@
             BUKA SUMBER ↗
         </a>
 
-        <div class="resource-frame">
+        <div class="resource-frame pdf-frame">
             <iframe
                 src="{{ asset('pdf/giancoli-kalor.pdf') }}"
                 title="Physics: Principles with Applications - Heat Transfer"

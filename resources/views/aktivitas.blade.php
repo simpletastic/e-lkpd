@@ -689,8 +689,8 @@
 
 @media (max-width: 600px) {
 
-    .resource-frame {
-        height: 450px;
+    .pdf-frame {
+        display: none;
     }
 
 }
@@ -1161,7 +1161,7 @@
             BUKA SUMBER ↗
         </a>
 
-        <div class="resource-frame">
+        <div class="resource-frame pdf-frame">
             <object
                 data="{{ asset('pdf/halliday-suhu.pdf') }}"
                 type="application/pdf"
@@ -1204,7 +1204,7 @@
             BUKA SUMBER ↗
         </a>
 
-        <div class="resource-frame">
+        <div class="resource-frame pdf-frame">
             <iframe
                 src="{{ asset('pdf/giancoli-suhu.pdf') }}"
                 title="Physics: Principles with Applications - Temperature"
