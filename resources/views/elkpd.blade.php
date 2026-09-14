@@ -436,7 +436,7 @@
                 </div>
 
                 <div class="login-subtitle">
-                    Masukkan identitas untuk memulai aktivitas
+                    Silakan masukkan nama dan pilih kelompok sesuai pembagian yang telah disepakati
                 </div>
 
 
@@ -509,7 +509,7 @@
 
                 <div class="warning">
                     <strong>!</strong>
-                    Pastikan nama dan kelas diisi dengan benar
+                    Pastikan nama dan kelompok diisi dengan benar
                     sebelum memulai aktivitas.
                 </div>
 
